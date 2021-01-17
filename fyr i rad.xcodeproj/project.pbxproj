@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		914B1C5D25B4880D003CD23B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914B1C5C25B4880D003CD23B /* AppDelegate.swift */; };
+		914B1C5F25B4880D003CD23B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914B1C5E25B4880D003CD23B /* SceneDelegate.swift */; };
+		914B1C6125B4880D003CD23B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914B1C6025B4880D003CD23B /* ViewController.swift */; };
+		914B1C6425B4880D003CD23B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914B1C6225B4880D003CD23B /* Main.storyboard */; };
+		914B1C6625B48812003CD23B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914B1C6525B48812003CD23B /* Assets.xcassets */; };
+		914B1C6925B48812003CD23B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914B1C6725B48812003CD23B /* LaunchScreen.storyboard */; };
+		914B1C7425B48812003CD23B /* fyr_i_radTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914B1C7325B48812003CD23B /* fyr_i_radTests.swift */; };
+		914B1C7F25B48812003CD23B /* fyr_i_radUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914B1C7E25B48812003CD23B /* fyr_i_radUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		914B1C7025B48812003CD23B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 914B1C5125B4880D003CD23B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 914B1C5825B4880D003CD23B;
+			remoteInfo = "fyr i rad";
+		};
+		914B1C7B25B48812003CD23B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 914B1C5125B4880D003CD23B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 914B1C5825B4880D003CD23B;
+			remoteInfo = "fyr i rad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		914B1C5925B4880D003CD23B /* fyr i rad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fyr i rad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		914B1C5C25B4880D003CD23B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		914B1C5E25B4880D003CD23B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		914B1C6025B4880D003CD23B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		914B1C6325B4880D003CD23B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		914B1C6525B48812003CD23B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		914B1C6825B48812003CD23B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		914B1C6A25B48812003CD23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		914B1C6F25B48812003CD23B /* fyr i radTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fyr i radTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		914B1C7325B48812003CD23B /* fyr_i_radTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fyr_i_radTests.swift; sourceTree = "<group>"; };
+		914B1C7525B48812003CD23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		914B1C7A25B48812003CD23B /* fyr i radUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fyr i radUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		914B1C7E25B48812003CD23B /* fyr_i_radUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fyr_i_radUITests.swift; sourceTree = "<group>"; };
+		914B1C8025B48812003CD23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		914B1C5625B4880D003CD23B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914B1C6C25B48812003CD23B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914B1C7725B48812003CD23B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		914B1C5025B4880D003CD23B = {
+			isa = PBXGroup;
+			children = (
+				914B1C5B25B4880D003CD23B /* fyr i rad */,
+				914B1C7225B48812003CD23B /* fyr i radTests */,
+				914B1C7D25B48812003CD23B /* fyr i radUITests */,
+				914B1C5A25B4880D003CD23B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		914B1C5A25B4880D003CD23B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				914B1C5925B4880D003CD23B /* fyr i rad.app */,
+				914B1C6F25B48812003CD23B /* fyr i radTests.xctest */,
+				914B1C7A25B48812003CD23B /* fyr i radUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		914B1C5B25B4880D003CD23B /* fyr i rad */ = {
+			isa = PBXGroup;
+			children = (
+				914B1C5C25B4880D003CD23B /* AppDelegate.swift */,
+				914B1C5E25B4880D003CD23B /* SceneDelegate.swift */,
+				914B1C6025B4880D003CD23B /* ViewController.swift */,
+				914B1C6225B4880D003CD23B /* Main.storyboard */,
+				914B1C6525B48812003CD23B /* Assets.xcassets */,
+				914B1C6725B48812003CD23B /* LaunchScreen.storyboard */,
+				914B1C6A25B48812003CD23B /* Info.plist */,
+			);
+			path = "fyr i rad";
+			sourceTree = "<group>";
+		};
+		914B1C7225B48812003CD23B /* fyr i radTests */ = {
+			isa = PBXGroup;
+			children = (
+				914B1C7325B48812003CD23B /* fyr_i_radTests.swift */,
+				914B1C7525B48812003CD23B /* Info.plist */,
+			);
+			path = "fyr i radTests";
+			sourceTree = "<group>";
+		};
+		914B1C7D25B48812003CD23B /* fyr i radUITests */ = {
+			isa = PBXGroup;
+			children = (
+				914B1C7E25B48812003CD23B /* fyr_i_radUITests.swift */,
+				914B1C8025B48812003CD23B /* Info.plist */,
+			);
+			path = "fyr i radUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		914B1C5825B4880D003CD23B /* fyr i rad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 914B1C8325B48812003CD23B /* Build configuration list for PBXNativeTarget "fyr i rad" */;
+			buildPhases = (
+				914B1C5525B4880D003CD23B /* Sources */,
+				914B1C5625B4880D003CD23B /* Frameworks */,
+				914B1C5725B4880D003CD23B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fyr i rad";
+			productName = "fyr i rad";
+			productReference = 914B1C5925B4880D003CD23B /* fyr i rad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		914B1C6E25B48812003CD23B /* fyr i radTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 914B1C8625B48812003CD23B /* Build configuration list for PBXNativeTarget "fyr i radTests" */;
+			buildPhases = (
+				914B1C6B25B48812003CD23B /* Sources */,
+				914B1C6C25B48812003CD23B /* Frameworks */,
+				914B1C6D25B48812003CD23B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				914B1C7125B48812003CD23B /* PBXTargetDependency */,
+			);
+			name = "fyr i radTests";
+			productName = "fyr i radTests";
+			productReference = 914B1C6F25B48812003CD23B /* fyr i radTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		914B1C7925B48812003CD23B /* fyr i radUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 914B1C8925B48812003CD23B /* Build configuration list for PBXNativeTarget "fyr i radUITests" */;
+			buildPhases = (
+				914B1C7625B48812003CD23B /* Sources */,
+				914B1C7725B48812003CD23B /* Frameworks */,
+				914B1C7825B48812003CD23B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				914B1C7C25B48812003CD23B /* PBXTargetDependency */,
+			);
+			name = "fyr i radUITests";
+			productName = "fyr i radUITests";
+			productReference = 914B1C7A25B48812003CD23B /* fyr i radUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		914B1C5125B4880D003CD23B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					914B1C5825B4880D003CD23B = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					914B1C6E25B48812003CD23B = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 914B1C5825B4880D003CD23B;
+					};
+					914B1C7925B48812003CD23B = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 914B1C5825B4880D003CD23B;
+					};
+				};
+			};
+			buildConfigurationList = 914B1C5425B4880D003CD23B /* Build configuration list for PBXProject "fyr i rad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 914B1C5025B4880D003CD23B;
+			productRefGroup = 914B1C5A25B4880D003CD23B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				914B1C5825B4880D003CD23B /* fyr i rad */,
+				914B1C6E25B48812003CD23B /* fyr i radTests */,
+				914B1C7925B48812003CD23B /* fyr i radUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		914B1C5725B4880D003CD23B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914B1C6925B48812003CD23B /* LaunchScreen.storyboard in Resources */,
+				914B1C6625B48812003CD23B /* Assets.xcassets in Resources */,
+				914B1C6425B4880D003CD23B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914B1C6D25B48812003CD23B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914B1C7825B48812003CD23B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		914B1C5525B4880D003CD23B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914B1C6125B4880D003CD23B /* ViewController.swift in Sources */,
+				914B1C5D25B4880D003CD23B /* AppDelegate.swift in Sources */,
+				914B1C5F25B4880D003CD23B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914B1C6B25B48812003CD23B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914B1C7425B48812003CD23B /* fyr_i_radTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914B1C7625B48812003CD23B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914B1C7F25B48812003CD23B /* fyr_i_radUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		914B1C7125B48812003CD23B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 914B1C5825B4880D003CD23B /* fyr i rad */;
+			targetProxy = 914B1C7025B48812003CD23B /* PBXContainerItemProxy */;
+		};
+		914B1C7C25B48812003CD23B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 914B1C5825B4880D003CD23B /* fyr i rad */;
+			targetProxy = 914B1C7B25B48812003CD23B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		914B1C6225B4880D003CD23B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				914B1C6325B4880D003CD23B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		914B1C6725B48812003CD23B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				914B1C6825B48812003CD23B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		914B1C8125B48812003CD23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		914B1C8225B48812003CD23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		914B1C8425B48812003CD23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "fyr i rad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seddam.fyr-i-rad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		914B1C8525B48812003CD23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "fyr i rad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seddam.fyr-i-rad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		914B1C8725B48812003CD23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "fyr i radTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seddam.fyr-i-radTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fyr i rad.app/fyr i rad";
+			};
+			name = Debug;
+		};
+		914B1C8825B48812003CD23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "fyr i radTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seddam.fyr-i-radTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fyr i rad.app/fyr i rad";
+			};
+			name = Release;
+		};
+		914B1C8A25B48812003CD23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "fyr i radUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seddam.fyr-i-radUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "fyr i rad";
+			};
+			name = Debug;
+		};
+		914B1C8B25B48812003CD23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "fyr i radUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seddam.fyr-i-radUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "fyr i rad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		914B1C5425B4880D003CD23B /* Build configuration list for PBXProject "fyr i rad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914B1C8125B48812003CD23B /* Debug */,
+				914B1C8225B48812003CD23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		914B1C8325B48812003CD23B /* Build configuration list for PBXNativeTarget "fyr i rad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914B1C8425B48812003CD23B /* Debug */,
+				914B1C8525B48812003CD23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		914B1C8625B48812003CD23B /* Build configuration list for PBXNativeTarget "fyr i radTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914B1C8725B48812003CD23B /* Debug */,
+				914B1C8825B48812003CD23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		914B1C8925B48812003CD23B /* Build configuration list for PBXNativeTarget "fyr i radUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914B1C8A25B48812003CD23B /* Debug */,
+				914B1C8B25B48812003CD23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 914B1C5125B4880D003CD23B /* Project object */;
+}
